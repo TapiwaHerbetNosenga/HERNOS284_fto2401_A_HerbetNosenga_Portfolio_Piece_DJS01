@@ -19,7 +19,7 @@ fuelBurnRate : 0.5, // fuel burn rate (kg/s)
 const { initialVelocity, acceleration, timeInSeconds, initialDistance, initialFuelAmount, fuelBurnRate } = parameters;
  
 
-const convertedParamaters = {
+const convertedParams = {
 timeInHours : timeInSeconds/3600, //hours
 accelerationInKmh : acceleration*3.6, //(km/h)
 fuelBurnRateInHours : fuelBurnRate*3600
